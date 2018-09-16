@@ -13,9 +13,11 @@ environment variable.
 * `go install github.com/jtslear/slack-status`
 
 ## Usage
-* `slack-status :lunch: out to eat`
+* `slack-status set :emoji: [status]
+* `slack-status set :lunch: out to eat`
 
 ## Development
+* Uses [cobra](https://github.com/spf13/cobra)
 * This is using the [go11 modules experiment](https://github.com/golang/go/wiki/Modules#go-111-modules)
 * So you'll want go version 1.11+
 * fork this repo
